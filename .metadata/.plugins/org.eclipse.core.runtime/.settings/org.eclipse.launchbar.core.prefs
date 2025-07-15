@@ -1,0 +1,10 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ARM_F407_Leanning Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:O1_4_F407_CAN_Feedback Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:O1_F103_CAN_Decode Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:O1_F407VGT_CAN_Decode Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ARM_F407_Leanning\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ARM_F407_Leanning\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:O1_4_F407_CAN_Feedback\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:O1_F103_CAN_Decode\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:O1_F407VGT_CAN_Decode\ Debug/activeLaunchMode=debug

@@ -1,0 +1,94 @@
+13:54:46 **** Incremental Build of configuration Debug for project O1_F407VGT_CAN_Decode ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "O1_F407VGT_CAN_Decode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\NguyenDung\OneDrive\Documents\STM32_O1\O1_F407VGT_CAN_Decode\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="O1_F407VGT_CAN_Decode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: O1_F407VGT_CAN_Decode.elf
+ 
+arm-none-eabi-size  O1_F407VGT_CAN_Decode.elf 
+arm-none-eabi-objdump -h -S O1_F407VGT_CAN_Decode.elf  > "O1_F407VGT_CAN_Decode.list"
+   text	   data	    bss	    dec	    hex	filename
+  10744	     12	   1708	  12464	   30b0	O1_F407VGT_CAN_Decode.elf
+Finished building: default.size.stdout
+ 
+Finished building: O1_F407VGT_CAN_Decode.list
+ 
+13:55:17 **** Incremental Build of configuration Debug for project O1_F407VGT_CAN_Decode ****
+make -j4 all 
+arm-none-eabi-size  O1_F407VGT_CAN_Decode.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10744	     12	   1708	  12464	   30b0	O1_F407VGT_CAN_Decode.elf
+Finished building: default.size.stdout
+ 
+13:56:05 **** Incremental Build of configuration Debug for project O1_F407VGT_CAN_Decode ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/can.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/can.d" -MT"Core/Src/can.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/can.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "O1_F407VGT_CAN_Decode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\NguyenDung\OneDrive\Documents\STM32_O1\O1_F407VGT_CAN_Decode\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="O1_F407VGT_CAN_Decode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: O1_F407VGT_CAN_Decode.elf
+ 
+arm-none-eabi-size  O1_F407VGT_CAN_Decode.elf 
+arm-none-eabi-objdump -h -S O1_F407VGT_CAN_Decode.elf  > "O1_F407VGT_CAN_Decode.list"
+   text	   data	    bss	    dec	    hex	filename
+  10732	     12	   1708	  12452	   30a4	O1_F407VGT_CAN_Decode.elf
+Finished building: default.size.stdout
+ 
+Finished building: O1_F407VGT_CAN_Decode.list
+ 
+14:04:55 **** Incremental Build of configuration Debug for project O1_F407VGT_CAN_Decode ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_CAN_RxFifo0MsgPendingCallback':
+../Core/Src/main.c:184:65: error: 'data' undeclared (first use in this function); did you mean 'data5'?
+  184 |                                 VESC1.Status6.Encoder = *(int*)&data[4];
+      |                                                                 ^~~~
+      |                                                                 data5
+../Core/Src/main.c:184:65: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:187:33: warning: unused variable 'temp' [-Wunused-variable]
+  187 |                         uint8_t temp[8];
+      |                                 ^~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:07:06 **** Incremental Build of configuration Debug for project O1_F407VGT_CAN_Decode ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "O1_F407VGT_CAN_Decode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\NguyenDung\OneDrive\Documents\STM32_O1\O1_F407VGT_CAN_Decode\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="O1_F407VGT_CAN_Decode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: O1_F407VGT_CAN_Decode.elf
+ 
+arm-none-eabi-size  O1_F407VGT_CAN_Decode.elf 
+arm-none-eabi-objdump -h -S O1_F407VGT_CAN_Decode.elf  > "O1_F407VGT_CAN_Decode.list"
+   text	   data	    bss	    dec	    hex	filename
+  10860	     12	   1700	  12572	   311c	O1_F407VGT_CAN_Decode.elf
+Finished building: default.size.stdout
+ 
+Finished building: O1_F407VGT_CAN_Decode.list
+ 
+14:32:33 **** Incremental Build of configuration Debug for project O1_F407VGT_CAN_Decode ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/can.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/can.d" -MT"Core/Src/can.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/can.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "O1_F407VGT_CAN_Decode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\NguyenDung\OneDrive\Documents\STM32_O1\O1_F407VGT_CAN_Decode\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="O1_F407VGT_CAN_Decode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: O1_F407VGT_CAN_Decode.elf
+ 
+arm-none-eabi-size  O1_F407VGT_CAN_Decode.elf 
+arm-none-eabi-objdump -h -S O1_F407VGT_CAN_Decode.elf  > "O1_F407VGT_CAN_Decode.list"
+   text	   data	    bss	    dec	    hex	filename
+  10880	     12	   1700	  12592	   3130	O1_F407VGT_CAN_Decode.elf
+Finished building: default.size.stdout
+ 
+Finished building: O1_F407VGT_CAN_Decode.list
+ 
+15:09:29 **** Incremental Build of configuration Debug for project O1_F407VGT_CAN_Decode ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/can.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/can.d" -MT"Core/Src/can.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/can.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -DUSE_FULL_LL_DRIVER -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "O1_F407VGT_CAN_Decode.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\NguyenDung\OneDrive\Documents\STM32_O1\O1_F407VGT_CAN_Decode\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="O1_F407VGT_CAN_Decode.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: O1_F407VGT_CAN_Decode.elf
+ 
+arm-none-eabi-size  O1_F407VGT_CAN_Decode.elf 
+arm-none-eabi-objdump -h -S O1_F407VGT_CAN_Decode.elf  > "O1_F407VGT_CAN_Decode.list"
+   text	   data	    bss	    dec	    hex	filename
+  11132	     12	   1836	  12980	   32b4	O1_F407VGT_CAN_Decode.elf
+Finished building: default.size.stdout
+ 
+Finished building: O1_F407VGT_CAN_Decode.list
+ 

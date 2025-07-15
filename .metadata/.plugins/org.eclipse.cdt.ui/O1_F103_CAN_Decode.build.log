@@ -1,0 +1,10 @@
+10:29:15 **** Incremental Build of configuration Debug for project O1_F103_CAN_Decode ****
+make -j4 all 
+arm-none-eabi-size  O1_F103_CAN_Decode.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8512	     12	   1668	  10192	   27d0	O1_F103_CAN_Decode.elf
+Finished building: default.size.stdout
+ 
+
+10:29:16 Build Finished. 0 errors, 0 warnings. (took 417ms)
+
